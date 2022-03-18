@@ -20,6 +20,7 @@ try {
    
     //Routes
    
+    app.use('/api/users', require('./routes/user.routes'));
    
     //Server
     app.listen(port, () => {
